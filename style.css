@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background: #000000d0;
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+    box-shadow: 5px 5px 5px #00000056;
+}
+
+button {
+    margin: 1.7em;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.temp {
+    margin: 1em;
+}
+
+.icon {
+    margin-left: 4em;
+}
+
+.search {
+    margin-bottom: -1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather {
+    padding: 0%;
+    margin-left: 2em;
+    margin-bottom: -2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input.searchbar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background:#7c7c7c2b;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 105%;
+}
